@@ -1,0 +1,22 @@
+.bg {
+	background-image:url(lu.jpg);
+	background-size : cover;
+}
+
+.wrapper{
+	margin-top : 10em;
+}
+
+#borderi{
+	border : 3px solid green;
+}
+
+
+
+.input{
+	animation : blinker 4s ease-in-out infinite;
+}
+
+@keyframes blinker{
+	50% {opacity : 0 ;}
+}
